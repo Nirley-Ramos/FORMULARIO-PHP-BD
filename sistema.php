@@ -1,6 +1,6 @@
 <?php
     session_start();
-    print_r($_SESSION);
+    // print_r($_SESSION);
     if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
     {
         unset($_SESSION['email']);
@@ -19,24 +19,32 @@
     <title>SISTEMA | NR</title>
     <style>
         body{
-        
-            background-image: linear-gradient(to right, rgb(229, 189, 238), rgb(96, 13, 85));
+            background-image: linear-gradient(to right, rgb(122, 43, 241), rgb(4, 38, 77));
             text-align: center;
-
+            color: white;
         }
     </style>
 </head>
-
-
 <body>
-            <div class="d-flex">
-                <a href="sair.php" clas="btn btn-danger me-5">Sair</a>
 
-            </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> SISTEMA DO NR</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
 
+
+        <div class="d-flex">
+            <a href="sair.php" ><button type="button" class="btn btn-danger me-5">Sair</button></a>
+          <!-- <a href="sair.php" clas="btn-danger me-5">Sair</a> -->
+         </div>
+    </nav>
+<br>
     <?php
     echo "<h1>Bem vindo <u>$logado</u></h1>";
 
     ?>
 </body>
-</html>
+</html> 

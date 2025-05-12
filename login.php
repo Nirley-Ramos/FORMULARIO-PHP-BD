@@ -7,7 +7,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(229, 189, 238), rgb(96, 13, 85));
+                background-image: linear-gradient(to right, rgb(122, 43, 241), rgb(4, 38, 77));
         }
         div{
             background-color: rgba(0, 0, 0, 0.6);
@@ -42,7 +42,10 @@
     </style>
 </head>
 <body>
-    <a href="home.php">Voltar</a>
+   
+    <a href="home.php" ><button type="button" class="btn btn-danger me-5">Voltar</button></a>
+    <!-- <a href="home.php">Voltar</a> -->
+
 
     <div>
 

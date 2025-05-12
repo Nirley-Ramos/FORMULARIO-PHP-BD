@@ -48,7 +48,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(229, 189, 238), rgb(96, 13, 85));
+             background-image: linear-gradient(to right, rgb(122, 43, 241), rgb(4, 38, 77));
         }
         .box{
             color: white;
@@ -63,13 +63,13 @@
         }
 
         fieldset{
-            border: 3px, solid  rgb(255, 30, 191);
+            border: 3px, solid  rgb(122, 43, 241);
         }
         legend{
-            border: 1px solid rgb(255, 30, 191);
+            border: 1px solid rgb(122, 43, 241);
             padding: 10px;
             text-align: center;
-            background-color: rgb(255, 30, 191);
+            background-color: rgb(4, 38, 77);
             border-radius: 8px; 
         }
         .inputBox{
@@ -96,7 +96,7 @@
         .inputUser:valid ~ .labelInput{
             top: -20px;
             font-size: 12px;
-            color: rgb(216, 122, 122);
+            color: rgb(154, 104, 230);
         }
 
         #data_nascimento{
@@ -107,7 +107,7 @@
             font-size: 15px;
         }
         #submit{
-            background-image: linear-gradient(to right, rgb(229, 189, 238), rgb(96, 13, 85));
+            background-image: linear-gradient(to right, rgb(122, 43, 241), rgb(4, 38, 77));
             width: 100%;
             border: none;
             padding: 15px;
@@ -118,14 +118,15 @@
 
         }
         #submit:hover{
-            background-image: linear-gradient(to right, rgb(243, 241, 243), rgb(233, 93, 214));
+            background-image: linear-gradient(to right, rgb(129, 173, 223), rgb(173, 133, 233));
         }
        
 
     </style>
 </head>
 <body>
-        <a href="home.php">Voltar</a>
+    <a href="home.php" ><button type="button" class="btn btn-danger me-5">Voltar</button></a>
+      
     <div class="box">
         <form action="formulario.php" method="POST">
             <fieldset>

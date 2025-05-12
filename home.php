@@ -7,7 +7,7 @@
     <style>
         body{
             font-family: arial, Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(229, 189, 238), rgb(96, 13, 85));
+            background-image: linear-gradient(to right, rgb(122, 43, 241), rgb(4, 38, 77));
             text-align: center;
             color: white;
         }
@@ -28,7 +28,7 @@
             padding: 10px;
         }
         a:hover{
-            background-image: linear-gradient(to right, rgb(243, 241, 243), rgb(233, 93, 214));
+            background-image: linear-gradient(to right, rgb(122, 43, 241), rgb(4, 38, 77));
             cursor: pointer;
         }
 
@@ -38,13 +38,18 @@
 </head>
 <body>
 
-    <h1> Se inscreva no canal ;)</h1>
-    <h2> Desenvolvedor Nirley</h2>
+
+    <h1> SISTEMA DE CADASTROS</h1>
+    <h2>Desenvolver Nirley</h2>
 
 
     <div class="box">
     <a href="login.php">Login</a>
     <a href="formulario.php">Cadastre-se</a>
     </div>
+
+
 </body>
+ 
 </html>
+ 
